@@ -1,0 +1,7 @@
+LControlKey+LShiftKey+F9
+COM=LWIN+VK_R
+TXT=cmd
+KEY=RETURN
+WAIT=100
+TXT=ping google.com
+KEY=RETURN
