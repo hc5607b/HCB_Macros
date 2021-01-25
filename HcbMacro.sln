@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HcbMacro", "HcbMacro\HcbMacro.csproj", "{96687257-5E7F-46F1-843C-53C3B60B898F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96687257-5E7F-46F1-843C-53C3B60B898F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96687257-5E7F-46F1-843C-53C3B60B898F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96687257-5E7F-46F1-843C-53C3B60B898F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96687257-5E7F-46F1-843C-53C3B60B898F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {887376FE-45E9-4468-AA0C-B3E3590A501B}
+	EndGlobalSection
+EndGlobal
