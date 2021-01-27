@@ -172,7 +172,6 @@ namespace HcbMacro
             Application.Run();
 
             kbh.UnHookKeyboard();
-            Console.WriteLine("Vituiks meni");
         }
         List<Keys> pressedKeys = new List<Keys>();
         void kbh_OnKeyPressed(object sender, Keys e)
@@ -182,9 +181,7 @@ namespace HcbMacro
         void kbh_OnKeyUnpressed(object sender, Keys e)
         {
             if (listenForCombination) { chkCombo(); }
-            //pressedKeys.Remove(e);
             pressedKeys.Clear();
-            Console.WriteLine(e + " " + pressedKeys.Count);
         }
 
         void chkCombo() {
