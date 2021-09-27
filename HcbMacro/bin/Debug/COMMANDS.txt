@@ -1,0 +1,18 @@
+commands:
+COM=	Executes multiple key strokes. seperate keys with '+'
+TXT=	Writes text
+KEY=	Simulates keystroke
+WAIT=	Waits given mill seconds
+
+MACRO KEYS:
+Alt
+
+SHOW WINDOW: Ctrl+shift+F12
+
+
+COMMAND KEYS:
+RETURN
+TAB
+BACK
+SHIFT
+MENU (alt)

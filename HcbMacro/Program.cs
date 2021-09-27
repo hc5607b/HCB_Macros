@@ -108,6 +108,7 @@ namespace HcbMacro
         bool visible = true;
         void toggleVisibility()
         {
+            loadMacros();
             var handle = GetConsoleWindow();
             if (visible)
             {
@@ -123,6 +124,7 @@ namespace HcbMacro
 
         void loadMacros() {
             List<FileInfo> files = new DirectoryInfo(Directory.GetCurrentDirectory() + "/macros").GetFiles().ToList();
+            macros.Clear();
 
             int loadCount = 0;
             foreach (FileInfo f in files)
